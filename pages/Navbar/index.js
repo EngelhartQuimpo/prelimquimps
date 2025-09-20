@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <header class="text-gray-400 bg-gray-900 body-font">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-    <Image src="/navlogo.png" width={80} height={80}></Image>
+    <Image alt="hero" src="/navlogo.png" width={80} height={80}></Image>
     <span class="ml-3 text-xl">Quimpo, Engelhart</span>
     <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
       <Link href="/">
